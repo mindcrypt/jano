@@ -133,11 +133,11 @@ La versión actual de JANO reconoce una amplia lista de verbos regulares e irreg
 
 En esta versión de la herramienta JANO (experimental) no se ha verificado que para cualquier stegotexto no existan problemas en la recuperación de información. Antes de compartir un stegotexto verifique que es posible recuperar información. Si tiene problemas probablemente será con alguna palabra existente en el diccionario o con la codificación o caracteres especiales. Recuerde que JANO no utiliza un tagger (NLP) y por tanto podría equivocarse a la hora de evaluar palabras.
 
-A pesar de estas limitaciones el resultado final es bastante razonable y útil en multitud de escenarios gracias al uso de una tabla de desambigüación (WSD) y a la posibilidad de modificar el stegotexto a posteriori (caracteres especiales pueden ser añadidos o suprimidos como por ejemplo ,.:!¿?"';()[]).
+A pesar de estas limitaciones el resultado final es bastante razonable y útil en multitud de escenarios gracias al uso de una tabla de desambigüación (WSD), concatene los ficheros disponibles, y a la posibilidad de modificar el stegotexto a posteriori (caracteres especiales pueden ser añadidos o suprimidos como por ejemplo ,.:!¿?"';()[]).
 
 Una de las mayores limitaciones de la creación de covert channels sustituyendo palabras por sinónimos es el impacto semántico. Existen muy pocos sinónimos "puros", palabras que se puedan sustituir por otras en cualquier contexto. Una mala sustitución hace que un humano pueda ver aspectos raros en el stegotexto resultante. Resolver esta cuestión no es sencillo y requiere de aproximacione sofisticadas.
 
-Para hacer una aproximación práctica JANO utiliza una tabla de desambiguación (WSD) para saber si una palabra es más o menos probable a la hora de sustituirla en función de sus palabras vecinas. No es una aproximación perfecta pero es razonable y usable para una herramienta compacta.
+Para hacer una aproximación práctica JANO utiliza una tabla de desambiguación (WSD) para saber si una palabra es más o menos probable a la hora de sustituirla en función de sus palabras vecinas. No es una aproximación ideal pero es razonable y usable para una herramienta compacta.
 
 Con todas estas características le animo a modificarla, utilizarla y evolucionarla con las nuevas herramientas, técnicas y conocimientos existentes. Si desea notificarme cualquier error puedo hacerlo a alfonso@criptored.com para analizarlo en detalle
 
