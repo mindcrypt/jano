@@ -119,6 +119,14 @@ que vosotros, algo, que nunca me perdonaréis. Soy. un hacker, y, éste es mi ma
 todos... después... de todo, somos, todos iguales. 
 Este. es el último artículo de El Mentor. 
 ```
+# Funcionamiento de la herramienta
 
+La versión publicada de JANO, con alguna pequeña modificación, fue desarrollada en 2008 para facilitar la ocultación de comunicaciones usando sustituciones en lenguaje natural. Le recomiendo la consulta de la siguiente documentación para entender mejor su base y sus orígenes:
 
+- Alfonso Muñoz - Ocultación de comunicaciones en lenguaje natural [Rooted CON 2014] - https://www.youtube.com/watch?v=KZakb7WBBmY
+- Libro Esteganografía lingüística y canales encubiertos - https://github.com/mindcrypt/libros/blob/master/Esteganograf%C3%ADa%20ling%C3%BC%C3%ADstica%20y%20canales%20encubiertos%20-%20libro.pdf
+
+Esta herramienta fue desarrollada en un momento donde la existencia de recursos lingüísticos (por ejemplo, redes semánticas de palabras) era reducido o inexistente gratuitamente y las librerías de procesamiento de lenguaje natural en español con una funcionalidad muy limitada. Por tanto, esta aproximación tiene ventajas e inconvenientes que redundando en la correcta o incorrecta sustitución de palabras en determinadas ocasiones y en el balance entre reducción de impacto y capacidad de ocultación.
+
+La versión actual de JANO reconoce una amplia lista de verbos regulares e irregulares, gestiona variaciones lingüísticas de los sinónimos disponibles (masculino, femenino, singular, plurar, etc.) así como puede adaptarse a diferentes diccionarios de sinónimos. Una vez comprendido en detalle como funciona la herramienta puede crear sus propios diccionarios de sinónimos con objetivos concretos, por ejemplo, minimizar al máximo el impacto de las sustituciones de palabras a costa de una menor capacidad de ocultación promedio
 
