@@ -125,6 +125,7 @@ La versión publicada de JANO (experimental), con alguna pequeña modificación,
 
 - Alfonso Muñoz - Ocultación de comunicaciones en lenguaje natural [Rooted CON 2014] - https://www.youtube.com/watch?v=KZakb7WBBmY
 - Libro Esteganografía lingüística y canales encubiertos - https://github.com/mindcrypt/libros/blob/master/Esteganograf%C3%ADa%20ling%C3%BC%C3%ADstica%20y%20canales%20encubiertos%20-%20libro.pdf
+- http://stelin.sourceforge.net/
 
 Esta herramienta fue desarrollada en un momento donde la existencia de recursos lingüísticos en español (por ejemplo, redes semánticas de palabras) era reducido o inexistente, gratuitamente, y las librerías de procesamiento de lenguaje natural en español con una funcionalidad muy limitada. Por tanto, esta aproximación tiene ventajas e inconvenientes que redunda en la correcta o incorrecta sustitución de palabras en determinadas ocasiones y en el balance entre reducción de impacto y capacidad de ocultación. Algunos errores presentes tienen fácil solución con lo que le animo a modificar la herramienta a su gusto.
 
